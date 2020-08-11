@@ -275,7 +275,7 @@ h6 {
   height: 300px;
   position: relative;
   top: 3.289em;
-  margin-bottom: 7em;
+  margin-bottom: 4em;
 }
 #banner h1 {
   padding-top: 1em;
@@ -396,12 +396,120 @@ video {
 #cta {
   background: url(../../images/cta01.jpg);
  /* background-attachment: fixed;*/
-  background-size: contain;
+  background-size: cover;
   background-repeat: no-repeat;
   /*background-position: center;*/
   color: #fff;
   height: 70vh;
   width: 100%;
-  text-align: center;
+  /*text-align: center;*/
   margin-top: 0;
+}
+#cta h2 {
+  margin: 1em 0.25em 1em 0.25em;
+  color: #fff;
+}
+#cta p {
+  margin: 1.5em;
+  color: #fff;
+}
+.special {
+  text-align: center;
+  margin: 3em 2em 3em 2em;
+  height: 30vh;
+}
+.special h2 {
+  font-size: 2em;
+}
+.special p {
+  font-size: larger;
+  text-align: center;
+}
+
+/* TESTIMONIALS */
+
+.testimonials {
+  margin-top: 5em;
+}
+blockquote {
+  font-style: italic;
+  border-left: 9px solid gray; 
+}
+blockquote p {
+  margin: 2em;
+  text-align: center;
+  font-size: large;
+}
+.images {
+  display: inline;
+  position: relative;
+  left: -2em;
+  margin-right: 0em;
+  padding-bottom: 2em;
+}
+.author img {
+  border-radius: 50%;
+  width: 25%;
+}
+.credit {
+  display: inline;
+  position: relative;
+  top: -2.5em;
+  left: -2.5em;
+}
+strong {
+  color: red;
+}
+
+/* PAGE FOOTER */
+
+#page-footer {
+  background: #111;
+  text-align: left;
+}
+#page-footer div {
+  background: #111;
+  text-align: left;
+}
+#page-footer h3,
+#page-footer h4 {
+  color: #fff;
+  text-align: left;
+  font-size: 1.75rem;
+}
+#page-footer p,
+#page-footer a {
+  color: gray;
+  text-decoration: none;
+  text-align: left;
+  font-size: 1.25rem;
+} 
+#page-footer p {
+  margin-left: -.20em;
+}
+.alt {
+  margin-bottom: 2em;
+}
+.alt li {
+  border-bottom: 1px solid gray;
+  padding-bottom: 1em;
+  padding-top: 1em;
+}
+#page-footer a:hover {
+  color: #ee1111;
+}
+.plain i {
+  color: #fff;
+  font-size: 2rem;
+  margin-right: 1em;
+  margin-bottom: .5em;
+}
+.plain {
+ border-bottom: 1px solid gray;
+}
+.copyright {
+  text-align: center;
+  padding-bottom: 3em;
+  margin-left: 30%;
+  color: #fff;
 }
