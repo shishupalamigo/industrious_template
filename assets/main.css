@@ -155,7 +155,7 @@ html {
 }
 body {
   background-color: #ccc8c8;
-  background: url(../../images/pexels-henry-&-co-1939485.jpg);
+  background: url("../../images/body-bg.jpeg");
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -411,7 +411,7 @@ video {
 }
 
 #cta {
-  background: url(../../images/cta01.jpg);
+  background: url("../../images/cta01.jpeg");
   background-attachment: fixed;
   background-size: cover;
   background-repeat: no-repeat;
@@ -578,7 +578,7 @@ strong {
     margin: 1em;
   }
   #cta {
-    background: url(../../images/cta01.jpg);
+    background: url("../../images/cta01.jpeg");
     background-attachment: fixed;
     background-size: cover;
     background-repeat: no-repeat;
