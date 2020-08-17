@@ -10,6 +10,7 @@
         href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700&display=swap"
         rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
 </head>
 
 <body style="background-image:url('images/body-bg.jpeg')">
@@ -17,20 +18,23 @@
 
     <header id="page-head">
         <a href="index.html" class="logo">Industrious</a>
-        <nav>
-            <a href="#menu">Menu</a>
-        </nav>
-    </header>
-
+           
     <!--Nav-->
 
-    <!--<nav id="menu">
-        <ul class="links">
+    <nav id="menu">
+        
+        <button class="hamburger" id="hamburger">
+            <i class="fa fa-bars"></i>
+        </button>
+        <ul class="links" id="links">
             <li><a href="index.html">Home</a></li>
-            <li><a href="elements.html">Elements</a></li>
-            <li><a href="generic.html">Generic</a></li>
+            <li><a href="#">Elements</a></li>
+            <li><a href="#">Generic</a></li>
         </ul>
-    </nav>-->
+        
+    </nav>
+    <a href="#menu">Menu</a>
+</header>
 
     <!-- Banner -->
 
@@ -243,7 +247,7 @@
         </div>
     </footer>
 
-
+      <script src="script.js"></script>
 </body>
 
 </html>
